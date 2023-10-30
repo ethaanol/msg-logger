@@ -21,8 +21,8 @@ function write(data) {
 
 client.on('messageCreate', (message) => {
    if (message.guild != null) {
-      console.log("LOG ->" + " [" + message.guild.name + "] " + "[" + message.author.username + "] -> " + message.content);
-      write("LOG ->" + " [" + message.guild.name + "] " + "[" + message.author.username + "] -> " + message.content);
+      console.log("LOG ->" + " [" + message.guild.name + "] " + "[#" + message.channel.name + "] " + "[" + message.author.username + "] -> " + message.content);
+      write("LOG ->" + " [" + message.guild.name + "] " + "[#" + message.channel.name + "] " + "[" + message.author.username + "] -> " + message.content);
    } else {
       console.log("LOG ->" + " [UNRECOGNIZED] " + "[" + message.author.username + "] -> " + message.content);
       write("LOG ->" + " [UNRECOGNIZED] " + "[" + message.author.username + "] -> " + message.content);
