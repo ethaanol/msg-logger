@@ -1,0 +1,16 @@
+{
+  "name": "msg-logger",
+  "version": "1.0.0",
+  "description": "self-bot made to log discord messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "exotic",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^2.14.12",
+    "install": "^0.13.0",
+    "npm": "^10.2.1"
+  }
+}
